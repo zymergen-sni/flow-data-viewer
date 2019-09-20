@@ -2,7 +2,7 @@ import axios from 'axios';
 import qs from 'qs';
 
 axios.defaults.timeout = 60000;
-const root = process.env.REACT_APP_PORT ? '/' : 'http://localhost:8084';
+const root = process.env.REACT_APP_PORT || '';
 
 /**
  * Helper function to do actual API call.
