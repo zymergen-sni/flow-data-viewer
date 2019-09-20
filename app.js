@@ -6,7 +6,7 @@ const app = express();
 
 // const {getHomePage} = require('./routes/index');
 // const {addPlayerPage, addPlayer, deletePlayer, editPlayer, editPlayerPage} = require('./routes/player');
-const port = process.env.REACT_APP_PORT || 8084;
+const port = process.env.PORT || 8084;
 const username = process.env.DB_USERNAME;
 const password = process.env.DB_PASSWORD;
 
